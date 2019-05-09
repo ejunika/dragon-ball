@@ -1,0 +1,21 @@
+.dragon {
+    position: relative;
+}
+
+.segment {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.head {
+    background: red;
+    left: 20px;
+}
+
+.body {
+    background: orange;
+}
