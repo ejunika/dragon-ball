@@ -1,4 +1,6 @@
 <div class="dragon">
-  <div class="head segment"></div>
-  <div class="body segment"></div>
+  <div class="head segment"
+    [ngStyle]="{left: dragon.head.left + 'px', top: dragon.head.top + 'px', background: dragon.head.color}"></div>
+  <div class="body segment" *ngFor="let bodySegment of dragon.body"
+    [ngStyle]="{left: bodySegment.left + 'px', top: bodySegment.top + 'px', background: bodySegment.color}"></div>
 </div>
